@@ -32,19 +32,18 @@ Run the command:
 In my case the command is:
 
 `cmsso-util reconfigure --repoint-psc "HL-PSC.homelab.local" --username "administrator" --domain-name "vsphere.local" --passwd "Passwors123"`
-
-![Alt text](/assets/img/PSCreconfigure1.jpg "PSC Reconfigure"))
+![Alt text](/assets/img/PSCreconfigure1.jpg "PSC Reconfigure")
 
 If you typed the command right the it will go through the process of re-configuring, it took about 5 minutes for me.
 
 Once complete run the command to verify what PSC your vCenter is pointed at
 
-`/usr/lib/vmware-vmafd/bin/vmafd-cli get-ls-location --server-name localhost`
-
+`/usr/lib/vmware-vmafd/bin/vmafd-cli get-ls-location --server-name localhost`  
+![Alt text](/assets/img/PSCreconfigure2.jpg "PSC Reconfigure 2")
 
 As a double check if you close your SSH session then reconnect the login screen will state vCenter Server with external Platform Services Controller
 
-Confirming the vCenter has a external PSC listed
-
+  
+![Alt text](/assets/img/PSCExternalConfirm.jpg "Confirming the vCenter has a external PSC listed"))
 
 Success! We have moved to an external psc and can move onto deploying an additional vCenter appliance in linked mode.
