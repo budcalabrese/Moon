@@ -1,3 +1,8 @@
+---
+layout: post
+title: vSphere 6 Platform Services Controller move from embedded to external 
+---
+
 At work we are in the middle of upgrading from vSphere 5.0 to 6.0 and ran into a into a interesting design issue. We started by deploying the vCenter 6 appliance in our DR using the embedded PSC. Everything was fine until we decided we wanted to install a vCenter server in our production site using the same SSO domain.
 
 We quickly realized having two vCenter servers with embedded psc's with the same SSO was no longer a supported configuration.
