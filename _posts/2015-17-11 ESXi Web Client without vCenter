@@ -19,13 +19,12 @@ So how do you install this wonderful tool?
 
 1. SSH into your host
 2. Run the command 
-`esxcli software vib install -v https://labs.vmware.com/flings/esxi-embedded-host-client`
+`esxcli software vib install -v https://labs.vmware.com/flings/esxi-embedded-host-client`  
 
-Fling Install Pic
+![Alt text](/assets/img/FlingInstall.jpg "Fling Install")
 
-3. Now go to https://ipaddress/ui and your set
-
-VMware labs Embedded Host Fling
+3. Now go to https://ipaddress/ui and your set  
+![Alt text](/assets/img/EmbeddedHostFling.jpg "Embedded Host Fling")
 
 Hope you enjoyed this fling. Make sure to check out the [VMware Labs](https://labs.vmware.com/) for the other amazing flings.
 
