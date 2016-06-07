@@ -13,6 +13,6 @@ Enter a user name and password."
 ![Alt text](/assets/img/VSCA-vSphere-Client-Login-Error.jpg "VSCA vSphere Client Login Error")
 
 
-After some digging I found out it is a known bug (KB 2119332) when using the vCenter appliance and an external psc. According to the kb it is fixed in update 1 but I still was experiencing on 6.0 Update 1.
+After some digging I found out it is a known bug [KB 2119332](KB2119332) when using the vCenter appliance and an external psc. According to the kb it is fixed in update 1 but I still was experiencing on 6.0 Update 1.
 
 Thankfully the work around is uncheck use Windows session credentials and type your username (username@domain.local) and your password then boom you are in.
