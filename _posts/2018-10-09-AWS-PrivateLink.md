@@ -6,7 +6,7 @@ Peering was a option but not ideal. After more google searching I found AWS Priv
 
 After reading thrnought the documentation I started to get a better understand of data flow. 
 
-![basic_tuckernet](terraform/img/basic_privatelink.jpeg)
+![basic_tuckernet](https://github.com/budcalabrese/terraform/blob/master/img/basic_privatelink.jpeg)
 
 ### From here you can see you it is broken into two parts. 
 1.  Service provider  
