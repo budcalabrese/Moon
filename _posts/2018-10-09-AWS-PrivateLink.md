@@ -1,10 +1,12 @@
 # Working with VPC Endpoint Services (AWS PrivateLink)
 
+Recently I started a new role moving on-prem infrastructure to aws. One of my current tasks is to move Puppet from on-prem to aws. The catch is Puppet has to live in a different aws account thna where the ec2 instances will be built. 
+
 Peering was a option but not ideal. After more google searching I found AWS PrivateLink which seemed like it could be a solid option. https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service.html  
 
 After reading thrnought the documentation I started to get a better understand of data flow. 
 
-![basic_tuckernet](img/basic_privatelink.jpeg)
+![basic_tuckernet](https://github.com/budcalabrese/terraform/blob/master/img/basic_privatelink.jpeg)
 
 ### From here you can see you it is broken into two parts. 
 1.  Service provider  
