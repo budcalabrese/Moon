@@ -8,7 +8,7 @@ Recently I started a new role moving on-prem infrastructure to aws. One of my cu
 
 Peering was a option but not ideal. After more google searching I found AWS PrivateLink which seemed like it could be a solid option. https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service.html  
 
-After reading thrnought the documentation I started to get a better understanding of data flow. 
+After reading through the documentation I started to get a better understanding of data flow. 
 
 ![basic_tuckernet](https://github.com/budcalabrese/terraform/blob/master/img/basic_privatelink.jpeg)
 
