@@ -1,3 +1,7 @@
+---
+layout: post
+title: Working with VPC Endpoint Services (AWS PrivateLink)
+---
 # Working with VPC Endpoint Services (AWS PrivateLink)
 
 Recently I started a new role moving on-prem infrastructure to aws. One of my current tasks is to move Puppet from on-prem to aws. The catch is Puppet has to live in a different aws account than where the ec2 instances will be built. 
